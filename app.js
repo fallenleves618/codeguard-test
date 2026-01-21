@@ -28,4 +28,7 @@ try {
 // 问题6: console.log 在生产代码
 console.log("Debug: App started");
 
+//
+console.log("test tset  tseeee ")
+
 module.exports = { fetchData, divide, calculateDiscount };
