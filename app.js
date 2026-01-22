@@ -31,4 +31,11 @@ console.log("Debug: App started");
 //
 console.log("test tset  tseeee ")
 
+//
+const createProjectSchema = z.object({
+  name: z.string().min(1),
+  description: z.string().optional(),
+  repository: z.string().url().optional(),
+})
+
 module.exports = { fetchData, divide, calculateDiscount };
